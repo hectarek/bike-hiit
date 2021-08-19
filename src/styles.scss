@@ -1,0 +1,28 @@
+// Main styles for app
+
+// Global Variables
+$body-font-size: 10px;
+$base-class: ".bike-hiit";
+
+
+body {
+  font-size: $body-font-size;
+}
+
+#{$base-class} {
+
+  &-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  &-title {
+    position: relative;
+    &-text {
+      position: relative;
+    }
+  }
+}
